@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import MyCourseItem from "./MyCourseItem";
 
 const MyCourses = () => {
-  const [initialMyCourseItem, setStateCourseItem] = useState({
+  const [initialMyCourseItem] = useState({
     myCourseItems: [
       {
         title: "Web Design",

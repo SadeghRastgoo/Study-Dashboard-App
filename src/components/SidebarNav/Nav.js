@@ -7,12 +7,11 @@ const Nav = () => {
       <ul>
         <NavItem title="Dashboard" active={true}>
           <svg
-            className="nav-item__icon"
+            className="nav-item__icon bi bi-house"
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
             fill="currentColor"
-            className="bi bi-house"
             viewBox="0 0 16 16"
           >
             <path
@@ -27,12 +26,11 @@ const Nav = () => {
         </NavItem>
         <NavItem title="Courses" active={false}>
           <svg
-            class="nav-item__icon"
+            class="nav-item__icon bi bi-briefcase"
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
             fill="currentColor"
-            class="bi bi-briefcase"
             viewBox="0 0 16 16"
           >
             <path d="M6.5 1A1.5 1.5 0 0 0 5 2.5V3H1.5A1.5 1.5 0 0 0 0 4.5v8A1.5 1.5 0 0 0 1.5 14h13a1.5 1.5 0 0 0 1.5-1.5v-8A1.5 1.5 0 0 0 14.5 3H11v-.5A1.5 1.5 0 0 0 9.5 1h-3zm0 1h3a.5.5 0 0 1 .5.5V3H6v-.5a.5.5 0 0 1 .5-.5zm1.886 6.914L15 7.151V12.5a.5.5 0 0 1-.5.5h-13a.5.5 0 0 1-.5-.5V7.15l6.614 1.764a1.5 1.5 0 0 0 .772 0zM1.5 4h13a.5.5 0 0 1 .5.5v1.616L8.129 7.948a.5.5 0 0 1-.258 0L1 6.116V4.5a.5.5 0 0 1 .5-.5z" />
@@ -40,12 +38,11 @@ const Nav = () => {
         </NavItem>
         <NavItem title="Chats" active={false}>
           <svg
-            class="nav-item__icon"
+            class="nav-item__icon bi bi-chat"
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
             fill="currentColor"
-            class="bi bi-chat"
             viewBox="0 0 16 16"
           >
             <path d="M2.678 11.894a1 1 0 0 1 .287.801 10.97 10.97 0 0 1-.398 2c1.395-.323 2.247-.697 2.634-.893a1 1 0 0 1 .71-.074A8.06 8.06 0 0 0 8 14c3.996 0 7-2.807 7-6 0-3.192-3.004-6-7-6S1 4.808 1 8c0 1.468.617 2.83 1.678 3.894zm-.493 3.905a21.682 21.682 0 0 1-.713.129c-.2.032-.352-.176-.273-.362a9.68 9.68 0 0 0 .244-.637l.003-.01c.248-.72.45-1.548.524-2.319C.743 11.37 0 9.76 0 8c0-3.866 3.582-7 8-7s8 3.134 8 7-3.582 7-8 7a9.06 9.06 0 0 1-2.347-.306c-.52.263-1.639.742-3.468 1.105z" />
@@ -53,12 +50,11 @@ const Nav = () => {
         </NavItem>
         <NavItem title="Grades" active={false}>
           <svg
-            class="nav-item__icon"
+            class="nav-item__icon bi bi-clipboard-data"
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
             fill="currentColor"
-            class="bi bi-clipboard-data"
             viewBox="0 0 16 16"
           >
             <path d="M4 11a1 1 0 1 1 2 0v1a1 1 0 1 1-2 0v-1zm6-4a1 1 0 1 1 2 0v5a1 1 0 1 1-2 0V7zM7 9a1 1 0 0 1 2 0v3a1 1 0 1 1-2 0V9z" />
@@ -68,12 +64,11 @@ const Nav = () => {
         </NavItem>
         <NavItem title="Schedule" active={false}>
           <svg
-            class="nav-item__icon"
+            class="nav-item__icon bi bi-calendar3"
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
             fill="currentColor"
-            class="bi bi-calendar3"
             viewBox="0 0 16 16"
           >
             <path d="M14 0H2a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2zM1 3.857C1 3.384 1.448 3 2 3h12c.552 0 1 .384 1 .857v10.286c0 .473-.448.857-1 .857H2c-.552 0-1-.384-1-.857V3.857z" />
@@ -82,12 +77,11 @@ const Nav = () => {
         </NavItem>
         <NavItem title="Settings" active={false}>
           <svg
-            class="nav-item__icon"
+            class="nav-item__icon bi bi-gear"
             xmlns="http://www.w3.org/2000/svg"
             width="16"
             height="16"
             fill="currentColor"
-            class="bi bi-gear"
             viewBox="0 0 16 16"
           >
             <path d="M8 4.754a3.246 3.246 0 1 0 0 6.492 3.246 3.246 0 0 0 0-6.492zM5.754 8a2.246 2.246 0 1 1 4.492 0 2.246 2.246 0 0 1-4.492 0z" />

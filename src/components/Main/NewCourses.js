@@ -2,7 +2,7 @@ import React, { useState } from "react";
 import CourseItem from "./CourseItem";
 
 const NewCourse = () => {
-  const [initialCourse, changeCourseProps] = useState({
+  const [initialCourse] = useState({
     courses: [
       {
         cover: "./images/courses-cover/course-1.png",
