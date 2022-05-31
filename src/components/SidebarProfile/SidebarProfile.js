@@ -4,7 +4,7 @@ import SidebarCalendar from "./SidebarCalendar";
 import Homework from "./Homework";
 
 const SidebarProfile = () => {
-  const [initialHomework, setStateHomework] = useState({
+  const [initialHomework] = useState({
     homeworks: [
       { title: "Styling with CSS", tasks: 12, progress: 50 },
       { title: "Basics of programming", tasks: 18, progress: 65 },

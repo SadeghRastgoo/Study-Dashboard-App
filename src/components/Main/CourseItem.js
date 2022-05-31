@@ -4,7 +4,11 @@ const CourseItem = (props) => {
   return (
     <div className="new-courses__course">
       <div className="new-course__cover">
-        <img className="new-course-cover__img" src={props.cover} />
+        <img
+          className="new-course-cover__img"
+          src={props.cover}
+          alt="course cover"
+        />
       </div>
       <h4 className="new-courses__title font-semi-bold">{props.title}</h4>
       <span className="text-xs">{props.lessons} Lessons</span>
@@ -13,14 +17,17 @@ const CourseItem = (props) => {
           <img
             className="new-courses__avatar new-courses__avatar--1"
             src={props.avatar1}
+            alt="avatar"
           />
           <img
             className="new-courses__avatar new-courses__avatar--2"
             src={props.avatar2}
+            alt="avatar"
           />
           <img
             className="new-courses__avatar new-courses__avatar--3"
             src={props.avatar3}
+            alt="avatar"
           />
         </div>
         <button className="new-courses__btn">
