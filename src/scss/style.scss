@@ -33,7 +33,10 @@ body {
 .wrapper {
   display: grid;
   grid-template-columns: 30rem 2.5fr 1.25fr;
-  gap: 2rem;
+  gap: 4rem;
+  width: 100%;
+  max-width: 1600px;
+  margin: auto;
 }
 
 .logo {
@@ -46,9 +49,8 @@ body {
 .sidebar-nav {
   display: grid;
   grid-template-columns: 1fr;
-  grid-template-rows: 5.75rem 1fr 1fr;
+  grid-template-rows: 5.75rem 38rem auto;
   gap: 2rem;
-  // max-width: 30rem;
   padding: 1.5rem;
 }
 .nav ul {
@@ -102,7 +104,6 @@ body {
   color: var(--tertiary-color);
   position: relative;
   height: 25.5rem;
-  // margin-top: 2rem;
 
   .sidebar-premium__img {
     position: absolute;
@@ -137,7 +138,7 @@ body {
 }
 
 .main__header {
-  padding-top: 1.25rem;
+  margin-top: 1.7rem;
   display: flex;
   gap: 1rem;
   .main-header__heading {

@@ -5,7 +5,7 @@ import MyCourses from "./MyCourses";
 
 const Main = () => {
   return (
-    <main className="main">
+    <main className="main animate__animated animate__slideInUp ">
       <MainHeader />
       <NewCourse />
       <MyCourses />

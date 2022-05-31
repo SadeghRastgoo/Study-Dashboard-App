@@ -2,7 +2,7 @@ import React from "react";
 
 const MyCourseItem = (props) => {
   return (
-    <div className="my-course-item">
+    <div className="my-course-item animate__animated animate__fadeInUp animate__delay-1s">
       <div className="my-course-item__thumbnail">{props.children}</div>
       <div className="my-course-item__names">
         <h5 className="course-item-names__title text-sm">{props.title}</h5>

@@ -13,7 +13,7 @@ const SidebarProfile = () => {
   });
 
   return (
-    <section className="sidebar-profile">
+    <section className="sidebar-profile animate__animated animate__fadeInRight">
       <div className="sidebar-profile__header">
         <h4 className="sidebar-profile-header__heading  font-semi-bold">
           Profile

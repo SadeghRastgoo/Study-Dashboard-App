@@ -3,12 +3,12 @@ import Nav from "./Nav";
 
 const SidebarNav = () => {
   return (
-    <section className="sidebar-nav">
+    <section className="sidebar-nav animate__animated animate__fadeInLeft">
       <img className="logo" src="images/logo.svg" alt="logo" />
       <Nav />
-      <div className="sidebar__premium-ads">
+      <div className="sidebar__premium-ads animate__animated animate__fadeInLeft animate__delay-1s">
         <img
-          className="sidebar-premium__img"
+          className="sidebar-premium__img animate__animated animate__bounceIn animate__delay-2s"
           src="images/premium-ads-2.png"
           alt="illustrated person working with computer"
         />

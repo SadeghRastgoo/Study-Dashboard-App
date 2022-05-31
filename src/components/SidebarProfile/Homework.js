@@ -4,7 +4,7 @@ import { CircularProgressbar } from "react-circular-progressbar";
 
 const Homework = (props) => {
   return (
-    <div className="homework">
+    <div className="homework animate__animated animate__fadeInUp animate__delay-1s">
       <div className="homework__progress">
         <CircularProgressbar
           value={props.progress}

@@ -5,7 +5,7 @@ const CourseItem = (props) => {
     <div className="new-courses__course">
       <div className="new-course__cover">
         <img
-          className="new-course-cover__img"
+          className="new-course-cover__img animate__animated  animate__tada"
           src={props.cover}
           alt="course cover"
         />
@@ -15,17 +15,17 @@ const CourseItem = (props) => {
       <div className="new-courses__footer">
         <div className="new-courses__avatars">
           <img
-            className="new-courses__avatar new-courses__avatar--1"
+            className="new-courses__avatar new-courses__avatar--1 animate__animated animate__fadeInRight animate__delay-1s"
             src={props.avatar1}
             alt="avatar"
           />
           <img
-            className="new-courses__avatar new-courses__avatar--2"
+            className="new-courses__avatar new-courses__avatar--2 animate__animated animate__fadeInRight animate__delay-2s"
             src={props.avatar2}
             alt="avatar"
           />
           <img
-            className="new-courses__avatar new-courses__avatar--3"
+            className="new-courses__avatar new-courses__avatar--3 animate__animated animate__fadeInRight animate__delay-3s"
             src={props.avatar3}
             alt="avatar"
           />
