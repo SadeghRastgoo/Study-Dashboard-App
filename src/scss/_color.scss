@@ -1,0 +1,15 @@
+:root {
+  --true-v: #8a70d6;
+  --levender: #e9e3ff;
+  --charcoal: #424040;
+  --snow: #fbfbfb;
+}
+
+.light {
+  --primary-color: var(--true-v);
+  --secondary-color: var(--levender);
+  --tertiary-color: var(--charcoal);
+  --bg-color: var(--snow);
+  --shade-of-gray-color: rgba(19, 27, 49, 0.55);
+  --gray: rgba(19, 27, 49, 0.35);
+}
