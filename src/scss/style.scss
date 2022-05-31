@@ -364,6 +364,13 @@ body {
   grid-template-columns: 4.5rem 1fr repeat(3, 9rem);
   grid-auto-rows: 4.5rem;
   gap: 1.3rem;
+  padding: 0.5rem;
+  border-radius: 1rem;
+  cursor: pointer;
+
+  &:hover {
+    background: rgba(149, 157, 165, 0.1);
+  }
 }
 
 .my-course-item__thumbnail {
