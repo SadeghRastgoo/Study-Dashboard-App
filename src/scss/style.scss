@@ -236,14 +236,22 @@ body {
   display: flex;
   flex-direction: column;
   gap: 0.5rem;
+  cursor: pointer;
 
   .new-course__cover {
     border-radius: 1.25rem;
     height: 16rem;
+    transition: 0.5s transform;
     .new-course-cover__img {
       width: 100%;
       height: 100%;
       object-fit: contain;
+    }
+  }
+
+  &:hover {
+    .new-course__cover {
+      transform: scale(1.1) translateY(-10px);
     }
   }
 
@@ -264,9 +272,16 @@ body {
     color: var(--bg-color);
     border-radius: 0.5rem;
     padding: 0.9rem;
+    background-color: red;
+    transition: background 0.5s;
+    cursor: pointer;
 
     svg {
       transform: scale(1.2);
+    }
+
+    &:hover {
+      background: var(--primary-color) !important;
     }
   }
 
@@ -304,7 +319,7 @@ body {
   .my-courses__courses {
     display: grid;
     grid-template-columns: 1fr;
-    gap: 1rem;
+    // gap: 0.5rem;
 
     & > :nth-child(2) .my-course-item__thumbnail {
       background: #eae3ff;
